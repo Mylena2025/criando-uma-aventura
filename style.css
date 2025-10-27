@@ -1,0 +1,50 @@
+.playwrite-de-sas-<uniquifier> {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    background-color: #000000;
+     color: white;
+      font-family: "Bai Jamjuree", sans-serif;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 700px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+button {
+    background-color: #750d8a;
+    color: rgb(0, 0, 0);
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.5rem;
+}
+
+button:hover{
+background-color: rgb(245, 161, 248);
+color: #000000;
+border: solid 4px rgb(241, 70, 84);
+border-radius: 15px;
+font-weight: 800;
+} 
+
+.passo.ativo {
+    display:block;
+}
+
+.passo{
+    display: none;
+}
+main {
+    text-align: center;
+    max-width: 90%;
+}
+img {
+    max-width: 90%;
+}
+.imagem{
+    width: 80%;
+}
